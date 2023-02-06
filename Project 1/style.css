@@ -1,0 +1,223 @@
+title{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Copperplate", "Times New Roman", serif;
+}
+
+p{
+    text-align: left;
+    font-family: "Copperplate", "Times New Roman", serif;
+}
+span{
+    color:white;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+    font-weight: bold;
+    font-size: 6vw;
+    font-family: "Copperplate", "Times New Roman", serif;
+}
+.h1_index{
+    text-align: center;
+    background-color: #5B6236;
+    height: 100px;
+    line-height: 100px;
+}
+
+.nav_index{
+    /* display: auto; */
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #5B6236;
+    line-height: 100px;
+    font-family: "Copperplate", "Times New Roman", serif;
+}
+
+.h1_portfolio{
+    text-align: center;
+    font-weight: bold;
+    background-color: #003C71;
+    height: 100px;
+}
+
+.nav_portfolio{
+    /* display: auto; */
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #003C71;
+    line-height: 100px;
+    font-family: "Copperplate", "Times New Roman", serif;
+}
+
+.h1_qualifications{
+    text-align: center;
+    font-weight: bold;
+    background-color: #732F2F;
+    height: 100px;
+}
+
+.nav_qualifications{
+    /* display: auto; */
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #732F2F;
+    line-height: 100px;
+    font-family: "Copperplate", "Times New Roman", serif;
+}
+
+.h1_service{
+    /* Todo - Adjust saturation to make color slightly lighter for legibility concerns */
+    text-align: center;
+    font-weight: bold;
+    background-color: #3C0000;
+    height: 100px;
+}
+
+.nav_service{
+        /* Todo - Adjust saturation to make color slightly lighter for legibility concerns */
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #3C0000;
+    line-height: 100px;
+    font-family: "Copperplate", "Times New Roman", serif;
+}
+
+.h1_chatgpt{
+    text-align: center;
+    font-weight: bold;
+    background-color: #744F28;
+    height: 100px;
+}
+
+.nav_chatgpt{
+    /* display: auto; */
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #744F28;
+    line-height: 100px;
+    font-family: "Copperplate", "Times New Roman", serif;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Copperplate", "Times New Roman", serif;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Copperplate", "Times New Roman", serif;
+
+}
+
+h4{
+    text-align:center;
+    font-weight: bold;
+    font-family: "Copperplate", "Times New Roman", serif;
+}
+
+.bold{
+    font-weight:bold;
+    font-size: medium;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: auto;
+  }
+
+.left,.right{
+    float: left;
+    width: 30%;
+    padding: auto;
+}
+.middle{
+    float: left;
+    width: 40%;
+    padding: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+.white_block_index{
+    width: 100%; 
+    height: 60px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    color:white;
+}
+.white_block_service{
+    width: 100%; 
+    height: 240px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    color:white;
+}
+
+.white_block_qualifications{
+    width: 100%; 
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    color:white;
+}
+
+.white_block_portfolio{
+    width: 100%; 
+    height: 100px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    color:white;
+}
+
+.white_block_chatgpt{
+    width: 100%; 
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    color:white;
+}
+
+
+a{
+    color: black;
+    font-weight:bold;
+    padding: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+
