@@ -118,18 +118,18 @@ h4{
 .column {
     float: left;
     width: 33.33%;
-    padding: auto;
+    padding: auto+10px;
   }
 
 .left,.right{
     float: left;
     width: 30%;
-    padding: auto;
+    padding: auto+10px;
 }
 .middle{
     float: left;
     width: 40%;
-    padding: auto;
+    padding: auto+10px;
 }
 
 .row:after {
@@ -182,10 +182,7 @@ a{
     color: black;
     font-weight:bold;
     padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
     animation: transform .2s;
 
 }
