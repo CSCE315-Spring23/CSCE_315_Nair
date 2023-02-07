@@ -64,8 +64,9 @@ h4 {
 
 a {
   color: #003c71;
-  text-decoration: none;
-  padding: 5%;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right:5%;
 }
 
 a:hover {
@@ -74,8 +75,8 @@ a:hover {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   font-family: "Helvetica", 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
 }
 
@@ -89,7 +90,6 @@ img {
   border: none;
   padding: 0.5em 1em;
   border-radius: 5px;
-  cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
@@ -125,32 +125,32 @@ img {
   background-image: linear-gradient(to right,#E80505, #FDD819);
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 1em;
+.column_links{
+  width: 20%;
+  float: left;
+  padding: auto+10px;
 }
 
-.row {
-  display:grid;
-  justify-content: center;
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2em;
 }
 
 .nav {
-  display: flex;
   justify-content: center;
-  margin-bottom: 5em;
+  text-align: center;
+  padding: 30px;
 }
 
 .nav a {
-  display: block;
-  margin-right: 2em;
-  padding: 0.5em 1em;
-  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
   color: #003c71;
 }
 
 .nav a:hover {
-  background-color: #FFFF;
+  color: #FFFF;
   transition: all 0.3s ease-in-out;
 }
