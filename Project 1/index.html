@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<link rel="stylesheet" href="style.css">
+		<link id="mainStyleSheet" rel="stylesheet" href="style.css">
 		<title>Landing Page</title>
 	</head>
 
@@ -68,14 +68,18 @@
 			<div class="column_links">
 				<a href="https://openai.com/blog/chatgpt/">Learn about ChatGPT</a> 
 			</div>
-			
 		</div>
 		</div>
 		
 	</div>
 	</body>
 
+	<div class="container">
+		<button onclick="toggleStyleSheet()" type="button">Change Website Styling</button>
+	</div>
+	<script src="stylesaver.js"></script>
 	<div class = "nav_index">
+		
 		<a href='Portfolio.html'>Portfolio</a>
 		<a href='Qualifications.html'>Experience</a>
 		<a href='Service.html'>Serving the Community</a>
