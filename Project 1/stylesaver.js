@@ -1,5 +1,5 @@
 var new_style;
-// Fix to actually hold state for all pages, rather than just one
+
 function toggleStyleSheet(){
 
     var element = document.getElementById("mainStyleSheet");
@@ -21,10 +21,7 @@ function toggleStyleSheet(){
 window.onload = function(){
 
     style = localStorage.getItem("style");
-
     var element = document.getElementById("mainStyleSheet");
-
     element.setAttribute("href",style);
+
 }
-
-
