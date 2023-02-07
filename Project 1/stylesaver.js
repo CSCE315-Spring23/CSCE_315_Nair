@@ -19,9 +19,7 @@ function toggleStyleSheet(){
 
 
 window.onload = function(){
-
     style = localStorage.getItem("style");
     var element = document.getElementById("mainStyleSheet");
     element.setAttribute("href",style);
-
 }

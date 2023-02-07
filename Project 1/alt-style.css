@@ -4,7 +4,7 @@ title{
     font-weight: bold;
 }
 
-.body {
+.body{
   font-family: "Helvetica", 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -41,51 +41,51 @@ h1, h2, h3, h4{
   margin-top: 1em;
 }
 
-h1 {
+h1{
   font-size: 36px;
   font-family: "Palatino Linotype", sans-serif;
   margin-top: 0;
 }
 
-h2 {
+h2{
   font-size: 30px;
   font-family: "Palatino Linotype", sans-serif;;
 }
 
-h3 {
+h3{
   font-size: 24px;
   font-family: "Palatino Linotype", sans-serif;;
 }
 
-h4 {
+h4{
   font-size: 18px;
   font-family: "Palatino Linotype", sans-serif;
 }
 
-a {
+a{
   color: #003c71;
   padding-top: 10%;
   padding-left: 5%;
   padding-right:5%;
 }
 
-a:hover {
+a:hover{
   color: #FFFF;
   text-decoration: underline;
 }
 
-p {
+p{
   margin-top: 2em;
   margin-bottom: 2em;
   font-family: "Helvetica", 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
 }
 
-img {
+img{
   max-width: 50%;
   height: auto;
 }
 
-.button {
+.button{
   color: #fff;
   border: none;
   padding: 0.5em 1em;
@@ -97,7 +97,7 @@ img {
   background-image: linear-gradient(to right, #E8D07A, #5312D6);
 }
 
-.button_index:hover {
+.button_index:hover{
   background-image: linear-gradient(to right, #5312D6, #E8D07A);
 }
 
@@ -105,7 +105,7 @@ img {
   background-image: linear-gradient(to right, #1D6FA3, #65FDF0);
 }
 
-.button_portfolio:hover {
+.button_portfolio:hover{
   background-image: linear-gradient(to right, #65FDF0, #1D6FA3);
 }
 
@@ -113,7 +113,7 @@ img {
   background-image: linear-gradient(to right, #81FFEF, #F067B4);
 }
 
-.button_service:hover {
+.button_service:hover{
   background-image: linear-gradient(to right, #F067B4, #81FFEF);
 }
 
@@ -121,7 +121,7 @@ img {
   background-image: linear-gradient(to right, #FDD819, #E80505);
 }
 
-.button_qual:hover {
+.button_qual:hover{
   background-image: linear-gradient(to right,#E80505, #FDD819);
 }
 
@@ -131,26 +131,26 @@ img {
   padding: auto+10px;
 }
 
-.container {
+.container{
   max-width: 1000px;
   margin: auto;
   padding: 2em;
 }
 
-.nav {
+.nav{
   justify-content: center;
   text-align: center;
   padding: 30px;
 }
 
-.nav a {
+.nav a{
   justify-content: center;
   text-align: center;
   padding: 30px;
   color: #003c71;
 }
 
-.nav a:hover {
+.nav a:hover{
   color: #FFFF;
   transition: all 0.3s ease-in-out;
 }

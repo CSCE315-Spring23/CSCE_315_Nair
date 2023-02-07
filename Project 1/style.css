@@ -10,6 +10,7 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
+
 span{
     color:white;
     vertical-align: middle;
@@ -19,6 +20,7 @@ span{
     font-size: 6vw;
     font-family: "Copperplate", "Times New Roman", serif;
 }
+
 .h1_index{
     text-align: center;
     background-color: #5B6236;
@@ -27,7 +29,6 @@ span{
 }
 
 .nav_index{
-
     height: 100px;
     justify-content: center;
     text-align: center;
@@ -45,7 +46,6 @@ span{
 }
 
 .nav_portfolio{
-
     height: 100px;
     justify-content: center;
     text-align: center;
@@ -80,7 +80,6 @@ span{
 }
 
 .nav_service{
-
     height: 100px;
     justify-content: center;
     text-align: center;
@@ -114,22 +113,24 @@ h4{
     font-size: medium;
 }
 
-.column {
+.column{
     float: left;
     width: 33.33%;
     padding: auto+10px;
-  }
+}
 
 .column_links{
     width: 20%;
     float: left;
     padding: auto+10px;
 }
+
 .left,.right{
     float: left;
     width: 30%;
     padding: auto+10px;
 }
+
 .middle{
     float: left;
     width: 40%;
@@ -139,6 +140,7 @@ h4{
 .row{
     text-align:center;
 }
+
 .row_service{
     text-align:center;
     background-image: url('IMG_3622.jpg');
@@ -157,11 +159,11 @@ h4{
     height:1000px;
 }
 
-.row:after {
+.row:after{
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 .row_service:after{
     content: "";
@@ -185,18 +187,19 @@ a{
     transition: all 0.5s ease-in-out;
 
 }
+
 a:hover{
     font-size: 18px;
     color: #ddd;
 }
 
-.center {
+.center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 75%;
     height: auto;
-  }
+}
 
 img{
     display: block;
@@ -224,7 +227,7 @@ img{
 
 button:hover {
     transform: scale(1.05);
-  }
+}
 
 .button_index{
     background-image: linear-gradient(to right, #5B6236, #91b021);
