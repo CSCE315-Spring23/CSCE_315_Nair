@@ -5,10 +5,9 @@ title{
 }
 
 .body {
-  font-family: "Palatino Linotype", 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Helvetica", 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
   text-align: center;
 }
 
@@ -34,7 +33,7 @@ span{
     line-height: normal;
     font-weight: bold;
     font-size: 6vw;
-    font-family: "Palatino Linotype", 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:"Helvetica", 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1, h2, h3, h4{
@@ -45,6 +44,7 @@ h1, h2, h3, h4{
 h1 {
   font-size: 36px;
   font-family: "Palatino Linotype", sans-serif;
+  margin-top: 0;
 }
 
 h2 {
@@ -63,8 +63,9 @@ h4 {
 }
 
 a {
-  color: #5555;
+  color: #003c71;
   text-decoration: none;
+  padding: 5%;
 }
 
 a:hover {
@@ -75,6 +76,7 @@ a:hover {
 p {
   margin-top: 0;
   margin-bottom: 1em;
+  font-family: "Helvetica", 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
 }
 
 img {
@@ -100,11 +102,11 @@ img {
 }
 
 .button_portfolio{
-  background-image: linear-gradient(to right,#E80505, #FDD819);
+  background-image: linear-gradient(to right, #1D6FA3, #65FDF0);
 }
 
 .button_portfolio:hover {
-  background-image: linear-gradient(to right, #FDD819, #E80505);
+  background-image: linear-gradient(to right, #65FDF0, #1D6FA3);
 }
 
 .button_service{
@@ -116,11 +118,11 @@ img {
 }
 
 .button_qual{
-  background-image: linear-gradient(to right, #65FDF0, #1D6FA3);
+  background-image: linear-gradient(to right, #FDD819, #E80505);
 }
 
 .button_qual:hover {
-  background-image: linear-gradient(to right, #1D6FA3, #65FDF0);
+  background-image: linear-gradient(to right,#E80505, #FDD819);
 }
 
 .container {
@@ -129,51 +131,26 @@ img {
   padding: 1em;
 }
 
-.header {
-  background-color: #f8f8f8;
-  padding: 1em 0;
-  text-align: center;
-}
-
-.header h1 {
-  margin-top: 0;
+.row {
+  display:grid;
+  justify-content: center;
 }
 
 .nav {
   display: flex;
   justify-content: center;
-  margin-bottom: 1em;
+  margin-bottom: 5em;
 }
 
 .nav a {
   display: block;
-  margin-right: 1em;
+  margin-right: 2em;
   padding: 0.5em 1em;
   text-decoration: none;
-  color: black;
+  color: #003c71;
 }
 
 .nav a:hover {
-  background-color: #ddd;
-  transition: all 0.3s ease-in-out;
-}
-
-img {
-  max-width: 75%;
-  height: auto;
-  margin: auto;
-}
-
-button {
-  background-color: #2980b9;
-  color: white;
-  padding: 0.5em 1em;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #3498db;
+  background-color: #FFFF;
   transition: all 0.3s ease-in-out;
 }
