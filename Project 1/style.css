@@ -216,11 +216,11 @@ img{
     border: none;
     border-radius: 5px;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -229,35 +229,35 @@ button:hover {
   }
 
 .button_index{
-    background-image: linear-gradient(to right, #5B6236, #FFFF);
+    background-image: linear-gradient(to right, #5B6236, #91b021);
 }
 
 .button_index:hover{
-    background-image: linear-gradient(to right, #FFFF, #5B6236);
+    background-image: linear-gradient(to right, #91b021, #5B6236);
 }
 
 .button_portfolio{
-     background-image: linear-gradient(to right, #003C71, #FFFF);;
+     background-image: linear-gradient(to right, #003C71, #206db2);;
 }
 
 .button_portfolio:hover{
-    background-image: linear-gradient(to right, #FFFF, #003C71);
+    background-image: linear-gradient(to right, #206db2, #003C71);
 }
 
 .button_service{
-    background-image: linear-gradient(to right, #3C1000, #FFFF);
+    background-image: linear-gradient(to right, #3C1000, #9b2e06);
 }
 
 .button_service:hover{
-    background-image: linear-gradient(to right, #FFFF, #3C1000);
+    background-image: linear-gradient(to right, #9b2e06, #3C1000);
 }
 
 .button_qual{
-    background-image: linear-gradient(to right, #732F2F, #FFFF);
+    background-image: linear-gradient(to right, #732F2F, #ce4d19);
 }
 
 .button_qual:hover{
-    background-image: linear-gradient(to right, #FFFF,#732F2F );
+    background-image: linear-gradient(to right, #ce4d19,#732F2F );
 }
 
 center{
