@@ -4,13 +4,13 @@ function toggleStyleSheet(){
 
     var element = document.getElementById("mainStyleSheet");
     var current_stylesheet = element.getAttribute('href');
-    
-   if(current_stylesheet == 'dark.css') {
-        new_style = 'light.css';
+
+   if(current_stylesheet == 'style.css') {
+        new_style = 'alt-style.css';
         element.setAttribute("href",new_style);
     }
     else{
-        new_style = 'dark.css';
+        new_style = 'style.css';
         element.setAttribute("href",new_style);
     }
    
